@@ -1,0 +1,1043 @@
+/*================================================*/
+/*                UNIVERSELE STYLING              */
+/*================================================*/
+
+/*Universele styling van de pagina*/
+* {
+background-color:#EAF0FA;
+}
+
+/*Font styling*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+/*scroll functie bovenaan de pagina*/
+.scrollingheader {
+    position: fixed;
+    top: -30px;
+    z-index: 1;
+    width: 100%;
+    background-color: transparent;
+}
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background-color: transparent;
+}
+.progress-bar {
+    height: 6.5px;
+    background: #36bba9;
+    opacity: 0.8;
+    width: 0%;
+}
+
+
+/*================================================*/
+/*                  HEADER STYLING                */
+/*================================================*/
+
+header,
+div {
+    /*    background-color: orange;*/
+    opacity: 1;
+    margin-top: 1em;
+}
+
+/*logo*/
+.header-image {
+    padding-top: 0.5em;
+    padding-left: 2em;
+    color: transparent;
+    width: 11em;
+    height: 3em;
+}
+
+/*================================================*/
+/*   STYLING VAN DE SVG, MANNETJE IN HAZMAT SUIT  */
+/*================================================*/
+
+
+
+
+/*wolkje die uit spuitding beweegt*/
+path.st39 {
+animation: grow 5s infinite;
+}
+@keyframes grow {
+    0% {
+/*        fill:limegreen;*/
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    50% {
+/*        fill: lightgreen;*/
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+/*                fill: limegreen;*/
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+
+/*ronde cirkel waar het figuurtje staat, schaduw*/
+#ground_1_ {
+    opacity: 0.8;
+    fill: #D3D3D3;
+}
+
+
+/*kleuren van de svg*/
+.st0 {
+    fill: #ADECE7;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st1 {
+    fill: #C0C4C5;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st2 {
+    fill: #31D1AB;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st3 {
+    fill: #FAFBFF;
+}
+.st4 {
+    fill: #FAFBFF;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st5 {
+    fill: #9BA1A2;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st6 {
+    fill: #1D286D;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st7 {
+    fill: #1D1F1F;
+    stroke: #1D1F1F;
+    stroke-miterlimit: 10;
+}
+.st8 {
+    fill: #C0C4C5;
+}
+.st9 {
+    fill: #ECECEF;
+    stroke: #1D1D1B;
+    stroke-width: 0.25;
+    stroke-miterlimit: 10;
+}
+.st10 {
+    fill: #D6D6D6;
+}
+.st11 {
+    fill: none;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st12 {
+    fill: none;
+    stroke: #1D1D1B;
+    stroke-width: 0.25;
+    stroke-miterlimit: 10;
+}
+.st13 {
+    fill: #3D8ECA;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st14 {
+    fill: #7350E1;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st15 {
+    fill: #1B2A71;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st16 {
+    fill: #FCA73F;
+}
+.st17 {
+    fill: #FCA73F;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st18 {
+    fill: #714FDE;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st19 {
+    fill: #216BB2;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st20 {
+    fill: #303030;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st21 {
+    fill: #E59937;
+}
+.st22 {
+    fill: #6186AB;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st23 {
+    fill: #177698;
+    stroke: #1D1D1B;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+.st24 {
+    fill: none;
+    stroke: #1D1D1B;
+    stroke-width: 0.2421;
+    stroke-miterlimit: 10;
+}
+.st25 {
+    fill: #555A4D;
+    stroke: #1D1D1B;
+    stroke-width: 0.25;
+    stroke-miterlimit: 10;
+}
+.st26 {
+    fill: #6C7369;
+    stroke: #1D1D1B;
+    stroke-width: 0.25;
+    stroke-miterlimit: 10;
+}
+.st27 {
+    fill: #658DB2;
+}
+.st28 {
+    fill: #416890;
+}
+.st29 {
+    fill: #ECECEF;
+}
+.st30 {
+    fill: #6186AB;
+}
+.st31 {
+    fill: #3D8ECA;
+}
+.st32 {
+    fill: #FF8300;
+}
+.st33 {
+    fill: #FFAF00;
+}
+.st34 {
+    fill: #F5F6F8;
+}
+.st35 {
+    fill: #303030;
+}
+.st36 {
+    fill: #E1D1DC;
+}
+.st37 {
+    fill: #216BB2;
+}
+.st38 {
+    opacity: 0.825;
+    fill: #FFFFFF;
+    enable-background: new;
+}
+.st39 {
+    opacity: 0.825;
+    fill: #F9F9F9;
+    enable-background: new;
+}
+.st40 {
+    opacity: 0.1;
+    enable-background: new;
+}
+.st41 {
+    fill: #3EC5B7;
+}
+.st42 {
+    fill: #D3EFF3;
+}
+.st43 {
+    fill: #FFFFFF;
+}
+.st44 {
+    opacity: 0.4;
+    fill: #D3EFF3;
+}
+.st45 {
+    fill: #1D1F1F;
+}
+
+/*================================================*/
+/*                 ARTICLE STYLING                */
+/*================================================*/
+
+/*Wat kunnen we leren van 100 jaar pandemieën styling*/
+.eersteZin {
+    display: flex;
+    position: absolute;
+    width: 30em;
+    margin-right: auto;
+    margin-left: 45em;
+    margin-top: 3em;
+}
+.eersteZin h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    width: 30em;
+    padding: 0.5em;
+    padding-bottom: 1em;
+/*        color: #fb54bc;*/
+/*    color: #2131ae;*/
+/*    color: #4B51D1;*/
+/*    color: #E43F65;*/
+/*    color: #4B51D1;*/
+/*    color: #36BBA9;*/
+/*    color: #278174;*/
+    color: #2131ae;
+
+
+}
+.eersteZin > p {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    padding-top: .5em;
+    margin-top: 9em;
+    margin-left: 1.2em;
+color: #3a3a3a;
+    background-color: transparent;
+}
+
+
+
+
+/*Scroll naar beneden styling*/
+.scroll {
+    display: flex;
+    position: absolute;
+    width: 30em;
+    margin-right: auto;
+    margin-left: 30%;
+    margin-top: -20.6em;
+    background-color: white;
+}
+.scroll p:nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    width: 30em;
+    padding: 0.4em;
+    background-color: white;
+    color: #2131ae;
+    text-align: center;
+}
+.scroll p:nth-child(2){
+        font-family: 'Poppins', sans-serif;
+    position: absolute;
+/*    padding-top: .5em;*/
+    margin-top: 2.5em;
+    text-align: center;
+    color: #3a3a3a;
+    background-color: transparent;
+
+
+
+}
+.arrow-down {
+        background-color: white;
+  transform: rotate(45deg);
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+    margin-left: 15em;
+}
+
+
+/*Pandemieen tekst*/
+.Pandemieen {
+    display: flex;
+    position: absolute;
+    width: 40em;
+    margin-right: auto;
+    margin-left: 3.5em;
+    margin-top: -4em;
+    background-color: transparent;
+}
+.Pandemieen h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    width: 20em;
+    padding: 0.5em;
+    padding-bottom: 1em;
+    /*    color: #fb54bc;*/
+    color: #2131ae;
+
+}
+.Pandemieen > p {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    /*    padding-top: .5em;*/
+    margin-top: 9.4em;
+    margin-left: 1.2em;
+color: #3a3a3a;
+    background-color: transparent;
+}
+
+
+/*groene virus*/
+/*
+#groenevirus1{
+    width: 3em;
+    height: 3em;
+    margin-left:30em;
+    margin-top: 5em;
+
+}
+
+*/
+
+/*
+@keyframes swirl-out-bck {
+  0% {
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+}
+*/
+
+
+    .virus0{
+        fill:#BAD612;
+}
+    .virus1{
+        fill:#D6EA18;
+}
+    .virus2{
+        fill:#ACBC13;
+}
+
+
+
+
+
+/*================================================*/
+/*             CARD(S) STYLING ALGMEEN            */
+/*================================================*/
+
+/*Boxmodel die om de cards heen zit, de wrapper*/
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+/*Containers van de cards*/
+.slide-container1{
+/*
+    margin: auto;
+    width: 600px;
+    text-align: center;
+*/
+    display: flex;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+align-content: center;
+}
+.slide-container2 {
+/*
+    margin: auto;
+    width: 600px;
+    text-align: center;
+*/
+    padding-top: 6em;
+    display: flex;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+align-content: center;
+}
+.slide-container3 {
+/*
+    margin: auto;
+    width: 600px;
+    text-align: center;
+*/
+    padding-top: 6em;
+    display: flex;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+align-content: center;
+}
+
+
+/*Algemene styling van de afbeeldingen*/
+img {
+    background-color: transparent;
+    width: 300px;
+    top: -65px;
+    left: -70px;
+    height: 300px;
+
+}
+
+
+/*================================================*/
+/*            CARD 1 - DE SPAANSE GRIEP           */
+/*================================================*/
+/*Card 1 – De Spaanse griep*/
+.cardStyling1{
+    top: 15em;
+    background: #87CEEB;
+    width: 300px;
+    display: inline-block;
+/*      margin: auto;*/
+    border-radius: 5%;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+/*    margin: 2em;*/
+
+}
+.imageInCard1 {
+    border-radius: 5%;
+    position: relative;
+    height: 230px;
+    margin-bottom: 20px;
+/*    margin-bottom: 35px;*/
+
+background-color: #87CEEB;
+}
+.date1 {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+    font-size: 1em;
+    background-color: #87CEEB;
+    position: absolute;
+/*    top: 11.33em;*/
+    margin-left: -9.4rem;
+    margin-top: -19.7em;
+    padding: 6px 0px 6px 0px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #2131ae;
+/*      color: rgb(255, 7, 110);*/
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.imageInCard1:hover{
+    background: url(../images/flag3.gif);
+}
+
+
+/*================================================*/
+/*                CARD 2 - DE PEST                */
+/*================================================*/
+/*Card 2 – De Pest*/
+.cardStyling2{
+    top: 15em;
+    background: #87CEEB;
+;
+    width: 300px;
+    display: inline-block;
+/*      margin: auto;*/
+    border-radius: 5%;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+/*    margin: 2em;*/
+
+}
+.imageInCard2 {
+    border-radius: 5%;
+    position: relative;
+    height: 230px;
+    margin-bottom: 20px;
+/*    margin-bottom: 35px;*/
+
+    background: #87CEEB;
+;
+}
+.date2 {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+    font-size: 1em;
+    background: #87CEEB;
+;
+    position: absolute;
+/*    top: 11.33em;*/
+    margin-left: -9.4rem;
+    margin-top: -19.7em;
+    padding: 6px 0px 6px 0px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #2131ae;
+/*      color: rgb(255, 7, 110);*/
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.imageInCard2:hover{
+        background: url(../images/fade.gif);
+}
+
+
+/*================================================*/
+/*            CARD 3 - PAPEGAAIEN ZIEKTE          */
+/*================================================*/
+/*Card 3 – De Papegaaienziekte*/
+.cardStyling3{
+    top: 15em;
+    background: #87CEEB;
+    width: 300px;
+    display: inline-block;
+/*      margin: auto;*/
+    border-radius: 5%;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+/*    margin: 2em;*/
+
+}
+.imageInCard3 {
+
+    border-radius: 5%;
+    position: relative;
+    height: 230px;
+    margin-bottom: 20px;
+/*    margin-bottom: 35px;*/
+/*    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg");*/
+/*    background-color: #D9F5F8;*/
+background-color: #87CEEB;
+}
+.date3 {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+    font-size: 1em;
+    background-color: #87CEEB;
+    position: absolute;
+/*    top: 11.33em;*/
+    margin-left: -9.4rem;
+    margin-top: -19.7em;
+    padding: 6px 0px 6px 0px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #2131ae;
+/*      color: rgb(255, 7, 110);*/
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.imageInCard3:hover{
+    background: url(../images/clouds_1.gif);
+}
+
+
+/*================================================*/
+/*               CARD 4 - LEGIONELLA              */
+/*================================================*/
+/*Card 4 – Legionella*/
+.cardStyling4{
+    top: 15em;
+    background: #87CEEB;
+    width: 300px;
+    display: inline-block;
+/*      margin: auto;*/
+    border-radius: 5%;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+/*    margin: 2em;*/
+
+}
+.imageInCard4 {
+
+    border-radius: 5%;
+    position: relative;
+    height: 230px;
+    margin-bottom: 20px;
+/*    margin-bottom: 35px;*/
+/*    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg");*/
+/*    background-color: #D9F5F8;*/
+background-color: #87CEEB;
+}
+.date4 {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+    font-size: 1em;
+    background-color: #87CEEB;
+    position: absolute;
+/*    top: 11.33em;*/
+    margin-left: -9.4rem;
+    margin-top: -19.7em;
+    padding: 6px 0px 6px 0px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #2131ae;
+/*      color: rgb(255, 7, 110);*/
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.imageInCard4:hover{
+/*    background: url(../images/placeholder.png);*/
+background: url(../images/water-animation.gif);
+}
+
+
+/*================================================*/
+/*                   CARD 5 - HIU                 */
+/*================================================*/
+/*Card 5 – Hiu*/
+.cardStyling5{
+    top: 15em;
+    background: #87CEEB;
+    width: 300px;
+    display: inline-block;
+/*      margin: auto;*/
+    border-radius: 5%;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+/*    margin: 2em;*/
+
+}
+.imageInCard5 {
+
+    border-radius: 5%;
+    position: relative;
+    height: 230px;
+    margin-bottom: 20px;
+/*    margin-bottom: 35px;*/
+/*    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg");*/
+/*    background-color: #D9F5F8;*/
+background-color: #87CEEB;
+}
+.date5 {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+    font-size: 1em;
+    background-color: #87CEEB;
+    position: absolute;
+/*    top: 11.33em;*/
+    margin-left: -9.4rem;
+    margin-top: -19.7em;
+    padding: 6px 0px 6px 0px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #2131ae;
+/*      color: rgb(255, 7, 110);*/
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.imageInCard5:hover{
+/*    background: url(../images/clouds_1.gif);*/
+}
+
+
+/*================================================*/
+/*                 CARD 6 - SARS                  */
+/*================================================*/
+/*Card 6 – SARS*/
+.cardStyling6{
+    top: 15em;
+    background: #87CEEB;
+    width: 300px;
+    display: inline-block;
+/*      margin: auto;*/
+    border-radius: 5%;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+/*    margin: 2em;*/
+
+}
+.imageInCard6 {
+
+    border-radius: 5%;
+    position: relative;
+    height: 230px;
+    margin-bottom: 20px;
+/*    margin-bottom: 35px;*/
+/*    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg");*/
+/*    background-color: #D9F5F8;*/
+background-color: #87CEEB;
+}
+.date6 {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+    font-size: 1em;
+    background-color: #87CEEB;
+    position: absolute;
+/*    top: 11.33em;*/
+    margin-left: -9.4rem;
+    margin-top: -19.7em;
+    padding: 6px 0px 6px 0px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #2131ae;
+/*      color: rgb(255, 7, 110);*/
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.imageInCard6:hover{
+    background: url(../images/windy.gif);
+}
+
+
+/*================================================*/
+/*                 CARD 7 - EBOLA                 */
+/*================================================*/
+/*Card 7 – Ebola*/
+.cardStyling7{
+    top: 15em;
+    background: #87CEEB;
+    width: 300px;
+    display: inline-block;
+/*      margin: auto;*/
+    border-radius: 5%;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+/*    margin: 2em;*/
+
+}
+.imageInCard7 {
+
+    border-radius: 5%;
+    position: relative;
+    height: 230px;
+    margin-bottom: 20px;
+/*    margin-bottom: 35px;*/
+/*    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg");*/
+/*    background-color: #D9F5F8;*/
+background-color: #87CEEB;
+}
+.date7 {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+    font-size: 1em;
+    background-color: #87CEEB;
+    position: absolute;
+/*    top: 11.33em;*/
+    margin-left: -9.4rem;
+    margin-top: -19.7em;
+    padding: 6px 0px 6px 0px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #2131ae;
+/*      color: rgb(255, 7, 110);*/
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.imageInCard7:hover{
+/*    background: url(../images/clouds_1.gif);*/
+}
+
+
+
+/*================================================*/
+/*                CARD 8 - COVID-19               */
+/*================================================*/
+/*Card 8 – COVID-19*/
+.cardStyling8{
+    top: 15em;
+    background: #87CEEB;
+    width: 300px;
+    display: inline-block;
+/*      margin: auto;*/
+    border-radius: 5%;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+/*    margin: 2em;*/
+
+}
+.imageInCard8 {
+
+    border-radius: 5%;
+    position: relative;
+    height: 230px;
+    margin-bottom: 20px;
+/*    margin-bottom: 35px;*/
+/*    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg");*/
+/*    background-color: #D9F5F8;*/
+background-color: #87CEEB;
+}
+.date8{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+    font-size: 1em;
+    background-color: #87CEEB;
+    position: absolute;
+/*    top: 11.33em;*/
+    margin-left: -9.4rem;
+    margin-top: -19.7em;
+    padding: 6px 0px 6px 0px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #2131ae;
+/*      color: rgb(255, 7, 110);*/
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.imageInCard8:hover{
+/*    background: url(../images/clouds_1.gif);*/
+}
+
+
+/*================================================*/
+/*             CARD 9 - ONBEKEND (VIRUS)          */
+/*================================================*/
+/*Card 9 – ???*/
+.cardStyling9{
+    top: 15em;
+    background: #87CEEB;
+    width: 300px;
+    display: inline-block;
+/*      margin: auto;*/
+    border-radius: 5%;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+/*    margin: 2em;*/
+
+}
+.imageInCard9 {
+
+    border-radius: 5%;
+    position: relative;
+    height: 230px;
+    margin-bottom: 20px;
+/*    margin-bottom: 35px;*/
+/*    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg");*/
+/*    background-color: #D9F5F8;*/
+background-color: #87CEEB;
+}
+.date9{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+    font-size: 1em;
+    background-color: #87CEEB;
+    position: absolute;
+/*    top: 11.33em;*/
+    margin-left: -9.4rem;
+    margin-top: -19.7em;
+    padding: 6px 0px 6px 0px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #2131ae;
+/*      color: rgb(255, 7, 110);*/
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.imageInCard9:hover{
+/*    background: url(../images/clouds_1.gif);*/
+}
+
+
+
+
+
+
+/*================================================*/
+/*                    UITLEG                      */
+/*================================================*/
+
+/*Voor het realiseren van de illustraties heb ik een aantal afbeeldingen van het internet gebruikt, overgetrokken en eventueel ook sommige afbeeldingen samengevoegd tot een idee/ontwerp.
+In de bronnenlijst hieronder staan alle afbeeldingen die ik gebruikt heb voor de realisatie.*/
+
+
+
+/*================================================*/
+/*                  BRONNENLIJST                  */
+/*================================================*/
+
+/*Font:*/
+/*https://fonts.google.com/specimen/Poppins?sidebar.open&selection.family=Poppins:wght@700#standard-styles*/
+
+/*Mannetje in Hazemat suit, SVG*/
+/*https://www.vecteezy.com/vector-art/1019222-disinfectant-workers-in-hazmat-suits-landing-page*/
+
+/*Spaanse vrouw illustratie*/
+/*https://www.dreamstime.com/cheerful-brunette-girl-traditional-spanish-dress-flamenco-dancer-costume-national-women-outfit-spain-cartoon-female-image140948734*/
+
+/*De Pest illustratie*/
+/*https://www.walmart.ca/en/ip/Plague-Doctor-Costume-Kid-s/4YT5PO6FMFBM en https://www.walmart.ca/en/ip/Kids-Classic-Plague-Doctor-Costume/7EDG5AB4XMMA*/
+
+/*Parrot illustratie*/
+/*https://nl.dreamstime.com/stock-illustratie-ara-parrot-flat-design-vector-illustratie-image74815218*/
+
+/*Chimpansee illustratie*/
+/*https://www.iconfinder.com/icons/2001630/ape_chimp_chimpanzee_gibbon_marmoset_monkey_primate_icon*/
+
+/*SARS illustratie*/
+/*https://es.123rf.com/photo_93759164_m%C3%A1scara-vestindo-da-prote%C3%A7%C3%A3o-da-jovem-mulher-lisa-do-vetor-estando-no-t-shirt-vermelho-ilustra%C3%A7%C3%A3o-isolada-.html en
+https://www.fotosearch.com/CSP665/k33319197/ */
+
+/*spraybottle illustratie*/
+/*https://www.dreamstime.com/clean-spray-bottle-icon-flat-style-clean-spray-bottle-icon-flat-illustration-clean-spray-bottle-vector-icon-web-design-image141625213*/
+
+
+/*Oorlogs Vliegtuig*/
+/*https://www.vecteezy.com/vector-art/115788-free-world-war-2-flat-icons*/
